@@ -53,7 +53,7 @@ Neovim's configurations are located under the following paths, depending on your
 #### Recommended Step
 
 [Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) this repo
-so that you have your copy that you can modify, then install by cloning the
+so that you have your own copy that you can modify, then install by cloning the
 fork to your machine using one of the commands below, depending on your OS.
 
 > **NOTE**
@@ -62,11 +62,7 @@ fork to your machine using one of the commands below, depending on your OS.
 
 You likely want to remove `lazy-lock.json` from your fork's `.gitignore` file
 too - it's ignored in the kickstart repo to make maintenance easier, but it's
-<<<<<<< HEAD
-[recommended tracking it in version control](https://lazy.folke.io/usage/lockfile).
-=======
 [recommended to track it in version control](https://lazy.folke.io/usage/lockfile).
->>>>>>> master
 
 #### Clone kickstart.nvim
 > **NOTE**
@@ -104,8 +100,6 @@ Start Neovim
 ```sh
 nvim
 ```
-<<<<<<< HEAD
-=======
 
 That's it! Lazy will install all the plugins you have. Use `:Lazy` to view
 the current plugin status. Hit `q` to close the window.
@@ -243,4 +237,3 @@ sudo pacman -S --noconfirm --needed gcc make git ripgrep fd unzip neovim
 ```
 </details>
 
->>>>>>> master
